@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+    margin: 0;
+}
+
+/* Nav */
+nav {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    position: fixed;
+}
+
+nav img {
+   height: 10vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+     list-style-type: none;
+     align-items: center;
+  }
+
+  /* li a::after{
+      content:'';
+      position: absolute;
+      height: .4em;
+      width: 0%;
+      background-color: #316366;
+      bottom: -1em;
+      transition: all ease-in-out 250ms;
+  } */
+
+  /* li a:hover::after {
+    width:60%;
+} */
+
+li a:hover{
+    color:#EDB506;
+    transition: all ease-in-out 250ms;
+}
+
+  /* First section of home pg */
+  .first-section {
+      background-color: #E7B200;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      height: 800px;
+      justify-content: end;
+  }
+
+  .first-left-half {
+    padding: 20vh 0 0 15vh;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .first-section h1 {
+      font-size: 4rem;
+      margin-top: 10vh;
+  }
+
+  .first-section h1+p {
+    font-size: 6em;
+    font-family: 'Mrs Saint Delafield', cursive;
+    padding-left: 13vh;
+    margin: 0vh;
+  }
+  
+  .first-section p+p {
+      font-size: 1.5em;
+      padding: 5vh 0vh 0vh 25vh;
+  }
+
+  .first-section button {
+      background-color: black;
+      color:  #EDB506;
+      border: 2px solid black;
+      border-radius: 1.625rem;
+      padding: 1.2em 2.5em;
+      margin: 1vh 0vh 0vh 40vh;
+      cursor: pointer;
+  }
+
+  .first-right-half img{
+      height: 800px;
+  }
+/* Second section of home pg */
+
+.second-section {
+    display: grid;
+    position: relative;
+    cursor: pointer;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 737px;
+    grid-gap: 30px;
+}
+
+.second-left-half {
+    background-image: url(../images/darkPinkDog.jpg);
+    background-size: 100%;
+}
+
+.second-middle-half {
+    background-image: url(../images/pinkCat.jpg);
+    background-size: 100%;
+}
+
+.second-right-half {
+    background-image: url(../images/lightPinkDog.jpg);
+    background-size: 100%;
+}
+
+.second-section h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* For cool button animation: 
+.angled-gradient-button {
+    background-size: 220%;
+    box-shadow: 0 .2em .3em rgba(0, 0, 0, 0.15);
+    color: #3363ff;
+    background-color: transparent;
+    background-position: 100%;
+    border: 3px solid #3363ff;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 3px;
+    transition: all .2s ease-out;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 2px;
+    background-image: linear-gradient(110deg, #3363ff 0%, #3363ff 50%, transparent 50%, transparent 100%);
+    font-size: 14px;
+}
+
+.angled-gradient-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 .3em rgba(0, 0, 0, 0.25);
+    background-position: 0;
+    color: #fff;
+}
+
+.angled-gradient-button:active {
+    transform: translateY(-1px);
+} */
