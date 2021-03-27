@@ -113,6 +113,12 @@ li a:hover{
 .second-left-half {
     background-image: url(../images/darkPinkDog.jpg);
     background-size: 100%;
+    overflow: hidden;
+    transition all .2s ease-in-out;
+}
+
+.second-left-half:hover {
+    transform: scale 1.1;
 }
 
 .second-middle-half {
@@ -128,6 +134,83 @@ li a:hover{
 .second-section h2 {
     text-transform: uppercase;
     text-align: center;
+}
+
+/* Third section */
+.third-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 800px;
+    background-color: #89aec4;
+}
+
+.third-section h2 {
+    text-transform: uppercase;
+}
+
+.third-section img {
+    height: 200px;
+    border-radius: 5px;
+    margin: 2vh;
+}
+
+.third-first-section {
+    background-color: #4282AB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.third-first-section section {
+    background-color:#4B8EB7;
+}
+
+.third-second-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.third-second-section section{
+    background-color: #F0F7FA;
+}
+
+.third-third-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.third-third-section section{
+
+    background-color: #6EBBD6;
+}
+
+/* Fourth section */
+.fourth-section {
+    background-color:#190F15;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 805px;
+}
+.fourth-left-half img{
+    height: 785px;
+    border-radius: 0px;
+}
+
+.fourth-right-half {
+    background-color:#190F15;
+    color: white;
+    padding: 30vh 13vh 2vh 0vh;
+    letter-spacing: .075em;
+    font-size: 1.1em;
+    height: 805px;
+}
+
+.fourth-right-half h2 {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+}
+
+.fourth-right-half p {
+    padding: .5em;
 }
 
 /* For cool button animation: 
