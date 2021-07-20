@@ -104,33 +104,32 @@ li a:hover{
 /* Second section of home pg */
 
 .second-section {
-    display: grid;
+    display: flex;
     position: relative;
+    flex-direction: row;
+    width:100%;
     cursor: pointer;
-    grid-template-columns: 1fr 1fr 1fr;
     height: 737px;
-    grid-gap: 30px;
 }
 
 .second-left-half {
     background-image: url(../images/darkPinkDog.jpg);
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
     transition all .2s ease-in-out;
-}
-
-.second-left-half:hover {
-    transform: scale 1.1;
+    width:33.3%;
 }
 
 .second-middle-half {
     background-image: url(../images/pinkCat.jpg);
-    background-size: 100%;
+    background-size: cover;
+    width:33.3%;
 }
 
 .second-right-half {
     background-image: url(../images/lightPinkDog.jpg);
     background-size: 100%;
+    width:33.3%;
 }
 
 .second-section h2 {
