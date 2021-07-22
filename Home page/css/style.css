@@ -300,6 +300,17 @@ li a:hover{
     padding: .5em;
 }
 
+.fourth-right-half a {
+    color: white;
+    text-decoration: none;
+}
+
+.fourth-right-half a:hover {
+    color: #E7B200;
+}
+
+/* Footer */
+
 footer{
     display: flex;
     justify-content: center;
@@ -319,7 +330,7 @@ footer a {
 }
 
 footer a:hover{
-    color:gray;
+    color:#E7B200;
 }
 
 /* For cool button animation: 
