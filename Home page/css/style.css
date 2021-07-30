@@ -12,14 +12,24 @@ body {
 /* Nav */
 nav {
     background-color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    position: fixed;
+    position: relative;
 }
 
-nav img {
-   height: 6vh;
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    width:20%;
+    margin: .3em;
+}
+
+.logo span{
+    align-self: center;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 nav a {
@@ -30,11 +40,17 @@ nav a {
 }
 
 ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-     list-style-type: none;
-     align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width:50%;
+    justify-content: space-around;
+    align-self: center;
   }
+
+li{
+    justify-content: space-evenly;
+}
 
   /* li a::after{
       content:'';
@@ -54,6 +70,7 @@ li a:hover{
     color:#EDB506;
     transition: all ease-in-out 250ms;
     text-decoration: underline;
+    text-decoration: none;
 }
 
   /* First section of home pg */
@@ -128,7 +145,7 @@ li a:hover{
 
 .second-right-half {
     background-image: url(../images/lightPinkDog.jpg);
-    background-size: 100%;
+    background-size: cover;
     width:33.3%;
 }
 
