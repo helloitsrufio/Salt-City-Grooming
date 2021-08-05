@@ -130,12 +130,28 @@ li a:hover{
 }
 
 .second-left-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     background-image: url(../images/darkPinkDog.jpg);
     background-size: cover;
     overflow: hidden;
     transition all .2s ease-in-out;
     width:33.3%;
 }
+
+.second-left-half:hover, .second-middle-half:hover, .second-right-half:hover{
+    filter: grayscale(100%);
+    width:70%;
+    height:auto;
+}
+
+.second-left-half-button{
+    padding:1em;
+    width:10vh;
+}
+
 
 .second-middle-half {
     background-image: url(../images/pinkCat.jpg);
