@@ -21,34 +21,38 @@
                     <span>Salt City Grooming</span>
                 </section>
                 <ul>
-                    <li><a href = '#'>Home</a></li>
+                    <li><a href = '#home'>Home</a></li>
     
-                    <li><a href='#'>Services</a></li>
+                    <li><a href='#services'>Services</a></li>
     
-                    <li><a href = '#'>Reviews</a></li>
+                    <li><a href = '#reviews'>Reviews</a></li>
     
-                    <li><a href ='#'>Contact</a></li>
+                    <li><a href ='#about'>Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <section class = 'first-section'>
+        <section class = 'first-section' id='home'>
             <section class='first-left-half'>
                 <h1>AT SALT CITY GROOMING</h1>
                 <p>we care about your pet.</p>
                 <p>SEE WHAT SERVICES WE OFFER.</p>
-                <button href='#second-section-jump'>Our Services</button>
+                <button><a href ='#requestdiv'></a>Our Services</button>
             </section>
             <section class='first-right-half'>
                 <img src='images/yellowPug.jpg' alt='Picture of a pug.'>
             </section>
         </section>
 
-        <section class = 'second-section' id='second-section-jump'>
+        <section class = 'second-section' id='services'>
+        <div id='requestdiv'></div>
             <section class='second-left-half'>
                 <section class="hidden" onmouseover='showMiniSecondSection(this.false)'>
                     <h2>Grooming</h2>
                     <p>We aren't just another grooming shop.</p>
+                    <section class="showIt">
+                        <p class='showMe'>We offer dog baths, fur trims, pedicures, and even coloring services.</p>
+                    </section>
                     <a href="https://www.picktime.com/9030f4e2-e790-4d67-8027-3aaa1ff16f8d" class="ptbkbtn" target="_blank" style="float:none;"><img border="none" src="https://www.picktime.com/bookingPage/img/picktime-book-online.png" alt="Book an appointment with Salt City Grooming"/></a>
                     <!-- <button class='second-left-half-button'>Book</button> -->
                 </section>
@@ -68,7 +72,7 @@
             </section>
         </section>
 
-        <section class = 'third-section'>
+        <!-- <section class = 'third-section' id='reviews'>
             <h2>reviews</h2>
             <section class='third-first-section'>
                 <section>
@@ -92,9 +96,9 @@
                     </section>
                     <img src="images/whiteCat.jpg"
             </section>
-        </section>
+        </section> -->
 
-        <section class = 'fourth-section'>
+        <section class = 'fourth-section' id='about'>
             <section class='fourth-left-half'>
                 <img src='images/macaw.jpg'>
             </section>

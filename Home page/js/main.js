@@ -9,3 +9,10 @@ function showMiniSecondSection(){
         this.false
     }
 }
+
+  $('a[href=#requestdiv]').click(function(){
+         $('html, body').animate({
+         scrollTop: $("#requestdiv").offset().top
+      }, 2000);
+   });
+
