@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     width: 100vw;
     margin: 0;
 }
@@ -123,64 +123,94 @@ li a:hover{
 .second-section {
     display: flex;
     position: relative;
-    flex-direction: row;
-    width:100%;
-    cursor: pointer;
-    height: 737px;
-}
-
-.second-left-half {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-image: url(../images/darkPinkDog.jpg) ;
-    background-size: cover;
-    overflow: hidden;
-    transition all .2s ease-in-out;
-    width:33.3%;
-}
-
-/* .showMe{
-    display: none;
-}
-
-.showIt:hover + .showMe{
-    display:block;
-} */
-
-.second-left-half:hover, .second-middle-half:hover, .second-right-half:hover{
-    filter: grayscale(100%);
-    width:70%;
-    height:auto;
-    background: 0.3;
-    display: flex;
     justify-content: center;
     align-items: center;
+    width:100%;
+    cursor: pointer;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.image__section {
+    display: flex;
+    position: relative;
     flex-direction: column;
+    width:33.3%;
+    height: 100%;
+    transition: width 200ms linear;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.second-left-half-button{
-    padding:1em;
-    width:10vh;
+.image__section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 10vh 0vh;
 }
 
+.image__section:hover{
+    width:66%;
+}
 
-.second-middle-half {
-    background-image: url(../images/pinkCat.jpg);
+.image__section p, .image__section h2, .image__section a {
+    color: white;
+    opacity: 0;
+    transition: opacity 200ms linear;
+    z-index: 10;
+}
+
+.image__section:hover p, .image__section:hover h2, .image__section:hover a {
+    opacity: 1;
+}
+
+.subsection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12vh;
+}
+
+.subsection p{
+    font-size: 1.5rem;
+    padding: 0vh 7vh;
+}
+
+.image__section span {
+    background: #000;
+    opacity: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background 200ms linear;
+}
+
+.image__section:hover span{
+    background: #000000AA;
+    opacity: 0.8;
+}
+
+.second-left-section {
+    background-image: url(../images/darkPinkDog.jpg);
+    flex-direction: column;
     background-size: cover;
+}
+
+.second-middle-section {
+    background-image: url(../images/pinkCat.jpg);
+    background-size:cover;
     width:33.3%;
 }
 
-.second-right-half {
+.second-right-section {
     background-image: url(../images/lightPinkDog.jpg);
     background-size: cover;
     width:33.3%;
-}
-
-.second-section h2 {
-    text-transform: uppercase;
-    text-align: center;
 }
 
 /* Third section::before*/
