@@ -88,6 +88,11 @@ li a:hover{
     font-family: 'Raleway', sans-serif;
   }
 
+  .first-left-half a {
+      text-decoration: none;
+      color: #E7B200;
+  }
+
   .first-section h1 {
       font-size: 4rem;
   }
