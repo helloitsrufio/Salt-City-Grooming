@@ -12,3 +12,6 @@ This application is simple static site including the following sections:
 -**Introductory section**: This is what the user sees upon first loading the page. It introduces the business.
 -**Services section**: This section shows the three main services this business provides: grooming, daycare, and boarding. 
 -**Contact section**: This section provides the business contact information for the user.
+
+## Technologies Used
+Made with **HTML5** and **CSS3**.
