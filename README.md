@@ -15,3 +15,10 @@ This application is simple static site including the following sections:
 
 ## Technologies Used
 Made with **HTML5** and **CSS3**.
+
+## What still needs to be done
+- [ ] Make overall site more responsive for various screen widths
+    - [ ] Make site mobile-friendly
+- [ ] Implement a 'Reviews' section on page
+- [ ] Refactor in React
+
