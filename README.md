@@ -21,4 +21,7 @@ Made with **HTML5** and **CSS3**.
     - [ ] Make site mobile-friendly
 - [ ] Implement a 'Reviews' section on page
 - [ ] Refactor in React
-
+- [ ] Make site a multiple page application
+    - [ ] Add a fully-fledged 'Services' page
+    - [ ] Add a fully-fledged 'Reviews' page
+    - [ ] Add a fully-fledged 'Contact' page
