@@ -25,3 +25,6 @@ Made with **HTML5** and **CSS3**.
     - [ ] Add a fully-fledged 'Services' page
     - [ ] Add a fully-fledged 'Reviews' page
     - [ ] Add a fully-fledged 'Contact' page
+
+## Contact
+If you have questions, concerns, suggestions, etc., feel free to email the developer, Ruth Reed, at [ruthreed.dev@gmail.com](mailto:ruthreed.dev@gmail.com).
