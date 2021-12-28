@@ -76,16 +76,15 @@ li a:hover{
   /* First section of home pg */
   .first-section {
       background-color: #E7B200;
-      display: grid;
-      grid-template-columns: 2fr 1fr;
+      display: flex;
       height: 800px;
       width: 100%;
-      justify-content: end;
   }
 
   .first-left-half {
-    padding: 15vh 0 0 15vh;
+    margin: 10vh 0 0 15vh;
     font-family: 'Raleway', sans-serif;
+    width: 60%;
   }
 
   .first-left-half a {
@@ -100,7 +99,7 @@ li a:hover{
   .first-section h1+p {
     font-size: 6em;
     font-family: 'Mrs Saint Delafield', cursive;
-    padding-left: 10vh;
+    padding-left: 0vh;
     margin: 0vh;
   }
   
@@ -119,8 +118,13 @@ li a:hover{
       cursor: pointer;
   }
 
+  .first-right-half {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+  }
+
   .first-right-half img{
-      height: 800px;
       width: 100%;
   }
 /* Second section of home pg */
@@ -409,3 +413,4 @@ footer a {
 footer a:hover{
     color:#E7B200;
 }
+
