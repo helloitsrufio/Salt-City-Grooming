@@ -82,7 +82,7 @@ li a:hover{
   }
 
   .first-left-half {
-    margin: 10vh 0 0 15vh;
+    margin: 15vh 0vh 0vh 15vh;
     font-family: 'Raleway', sans-serif;
     width: 60%;
   }
@@ -94,13 +94,13 @@ li a:hover{
 
   .first-section h1 {
       font-size: 4rem;
+      margin: 5vh 0vh 0vh 0vh;
   }
 
   .first-section h1+p {
     font-size: 6em;
     font-family: 'Mrs Saint Delafield', cursive;
-    padding-left: 0vh;
-    margin: 0vh;
+    margin: 5vh 0vh 0vh 10vh;
   }
   
   .first-section p+p {
@@ -114,7 +114,7 @@ li a:hover{
       border: 2px solid black;
       border-radius: 1.625rem;
       padding: 1.2em 2.5em;
-      margin: 1vh 0vh 0vh 32vh;
+      margin: 5vh 0vh 0vh 32vh;
       cursor: pointer;
   }
 
@@ -414,3 +414,59 @@ footer a:hover{
     color:#E7B200;
 }
 
+/* Media queries */
+@media screen and (max-width:1796px){
+    .first-right-half{
+     width:42%;
+    }
+    .first-left-half{width:58%;} 
+ }
+
+ @media screen and (max-width:1736px){
+    .first-right-half{
+     width:43%;
+    }
+    .first-left-half{width:57%;} 
+ }
+
+ @media screen and (max-width:1678px){
+    .first-right-half{
+     width:44%;
+    }
+    .first-left-half{width:56%;} 
+ }
+
+ @media screen and (max-width:1678px){
+    .first-right-half{
+     width:45%;
+    }
+    .first-left-half{width:55%;} 
+ }
+
+@media screen and (max-width:1606px){
+   .first-right-half{width:46%;}
+   .first-left-half{width:54%;} 
+   .first-left-half h1 {font-size: 3.5rem;}
+   .first-left-half h1+p{font-size:5.5rem;}
+   .first-section p+p {
+    font-size: 1.5em;
+    padding: 3vh 0vh 0vh 15vh;
+}
+    .first-section button {
+        margin-left: 27vh;
+    }
+}
+
+@media screen and (max-width:1568px){
+    .first-right-half{
+     width:47%;
+    }
+    .first-left-half{width:53%;} 
+ }
+
+ @media screen and (max-width:1520px){
+    .first-right-half{
+     width:48%;
+    }
+    .first-left-half{width:52%;} 
+ }
