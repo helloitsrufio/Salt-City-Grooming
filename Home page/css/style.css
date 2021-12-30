@@ -82,7 +82,7 @@ li a:hover{
   }
 
   .first-left-half {
-    margin: 15vh 0vh 0vh 15vh;
+    margin: 18vh 0vh 0vh 15vh;
     font-family: 'Raleway', sans-serif;
     width: 60%;
   }
@@ -437,10 +437,12 @@ footer a:hover{
  }
 
  @media screen and (max-width:1678px){
-    .first-right-half{
-     width:45%;
-    }
+    .first-right-half{width:45%;}
     .first-left-half{width:55%;} 
+ }
+
+ @media screen and (max-width:1658px){
+    .logo span{font-size:1.45em;}
  }
 
 @media screen and (max-width:1606px){
@@ -452,21 +454,37 @@ footer a:hover{
     font-size: 1.5em;
     padding: 3vh 0vh 0vh 15vh;
 }
-    .first-section button {
-        margin-left: 27vh;
-    }
+    .first-section button {margin-left: 27vh;}
 }
 
 @media screen and (max-width:1568px){
-    .first-right-half{
-     width:47%;
-    }
+    .first-right-half{width:47%;}
     .first-left-half{width:53%;} 
  }
 
  @media screen and (max-width:1520px){
-    .first-right-half{
-     width:48%;
-    }
+    .first-right-half{width:48%;}
     .first-left-half{width:52%;} 
+ }
+
+ @media screen and (max-width:1471px){
+    .first-right-half{width:52%;}
+    .first-left-half{width:48%;} 
+    .first-left-half h1 {font-size: 3.15rem;}
+    .first-left-half h1+p{font-size:4.6rem;}
+ }
+
+ @media screen and (max-width:1438px){
+    .first-right-half{width:52%;}
+    .first-left-half{
+        width:48%;
+        margin-top:10vh;
+    } 
+    .first-left-half h1 {font-size: 3rem;}
+    .first-left-half h1+p{font-size:4rem;}
+    .first-section p+p {
+        font-size: 1.2em;
+        padding: 3vh 0vh 0vh 13vh;
+    }
+    .first-section button {margin-left: 20vh;}
  }
