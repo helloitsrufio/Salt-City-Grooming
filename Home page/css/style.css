@@ -483,3 +483,55 @@ footer a:hover{
     }
     .first-section button {margin-left: 20vh;}
  }
+
+ @media screen and (max-width:1428px) {
+     .first-right-half{width:49%;}
+     .first-left-half{width: 51%;}
+ }
+
+ @media screen and (max-width:1400px) {
+    .first-right-half{width:50%;}
+    .first-left-half{width: 50%;}
+}
+
+@media screen and (max-width:1400px) {
+    .logo span{font-size:1.1em;}
+}
+
+
+@media screen and (max-width:1368px) {
+    .first-right-half{width:51%;}
+    .first-left-half{width: 49%;}
+}
+
+@media screen and (max-width:1350px) {
+    .first-right-half{width:52%;}
+    .first-left-half{width: 48%;}
+    .first-left-half h1 {font-size: 2.9rem;}
+}
+
+@media screen and (max-width:1334px) {
+    .first-right-half{width:53%;}
+    .first-left-half{width: 47%;}
+    .first-left-half h1 {font-size: 2.8rem;}
+}
+
+@media screen and (max-width:1318px) {
+    .first-left-half h1 {font-size: 2.7rem;}
+}
+
+@media screen and (max-width:1300px) {
+    .first-right-half{width:54%;}
+    .first-left-half{width: 46%;}
+    .first-left-half h1 {font-size: 2.6rem;}
+    .first-section h1+p{
+        font-size:3.5rem;
+        margin-left: 9vh;
+    }
+    .first-section p+p {
+        padding-left: 12vh;
+        font-size: 1rem;}
+    .first-section button {
+        margin-left: 17vh;
+    }
+}
