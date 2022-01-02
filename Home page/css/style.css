@@ -535,3 +535,38 @@ footer a:hover{
         margin-left: 17vh;
     }
 }
+
+@media screen and (max-width:1282px){
+    .first-right-half{width:55%;}
+    .first-left-half{width: 45%;}
+    .logo span{font-size:1em;}
+    .first-left-half h1 {font-size: 2.5rem;}
+}
+
+@media screen and (max-width:1238px){
+    .first-left-half h1 {font-size: 2.4rem;}
+}
+
+@media screen and (max-width:1218px){
+    .first-right-half{width:56%;}
+    .first-left-half{width: 44%;}
+    .first-left-half h1 {font-size: 2.3rem;}
+    .first-section h1+p{
+        font-size:3.4rem;
+        margin-left: 8vh;
+    }
+}
+
+@media screen and (max-width:1210px){
+    .first-right-half{width:57%;}
+    .first-left-half{width: 43%;}
+}
+
+@media screen and (max-width:1197px){
+    .first-right-half{width:58%;}
+    .first-left-half{width: 42%;}
+    .first-left-half h1 {font-size: 2.2rem;}
+    .first-section h1+p {margin-left: 6vh;}
+    .first-section p+p {padding-left: 9vh;}
+    .first-section button {margin-left: 14vh;}
+}
