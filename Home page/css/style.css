@@ -471,6 +471,7 @@ footer a:hover{
  @media screen and (max-width:1505px){
     .first-left-half h1 {font-size: 3.25rem;}
     .first-left-half h1+p{font-size:4.66rem;}
+    .second-section{height:70vh;}
  }
 
  @media screen and (max-width:1438px){
@@ -496,24 +497,34 @@ footer a:hover{
 
 @media screen and (max-width:1400px) {
     .logo span{font-size:1.1em;}
+    .second-section{height:60vh;}
 }
 
 
 @media screen and (max-width:1368px) {
     .first-right-half{width:51%;}
     .first-left-half{width: 49%;}
+    .first-section h1{
+        font-size:2.4rem;
+        margin-left: 6vh;
+    }
+    .first-section h1+p{
+        font-size:3.2rem;
+        margin-left: 14vh;
+    }
+    .first-section p+p {
+        padding-left: 16vh;
+        font-size: .95rem;}
 }
 
 @media screen and (max-width:1350px) {
     .first-right-half{width:52%;}
     .first-left-half{width: 48%;}
-    .first-left-half h1 {font-size: 2.9rem;}
 }
 
 @media screen and (max-width:1334px) {
     .first-right-half{width:53%;}
     .first-left-half{width: 47%;}
-    .first-left-half h1 {font-size: 2.8rem;}
 }
 
 @media screen and (max-width:1318px) {
@@ -523,16 +534,13 @@ footer a:hover{
 @media screen and (max-width:1300px) {
     .first-right-half{width:54%;}
     .first-left-half{width: 46%;}
-    .first-left-half h1 {font-size: 2.6rem;}
+    .first-left-half h1 {font-size: 2.3rem;}
     .first-section h1+p{
         font-size:3.5rem;
         margin-left: 9vh;
     }
-    .first-section p+p {
-        padding-left: 12vh;
-        font-size: 1rem;}
-    .first-section button {
-        margin-left: 17vh;
+    .first-section h1+p{
+        margin-left: 12vh;
     }
 }
 
@@ -569,4 +577,59 @@ footer a:hover{
     .first-section h1+p {margin-left: 6vh;}
     .first-section p+p {padding-left: 9vh;}
     .first-section button {margin-left: 14vh;}
+}
+
+@media screen and (max-width:1189px) {
+    .logo span{font-size:.9em;}
+}
+
+@media screen and (max-width:1175px){
+    .first-right-half{width:59%;}
+    .first-left-half{width: 41%;}
+    .first-left-half h1 {font-size: 2.1rem;}
+    .first-section h1+p {margin-left: 5vh;}
+    .first-section p+p {padding-left: 8vh;}
+    .first-section button {margin-left: 13vh;}
+}
+
+@media screen and (max-width:1152px){
+    .first-right-half{width:60%;}
+    .first-left-half{width: 40%;}
+    .first-left-half h1 {font-size: 2rem;}
+    .first-section h1+p {margin-left: 4vh;}
+    .first-section p+p {padding-left: 7vh;}
+    .first-section button {margin-left: 12vh;}
+}
+
+@media screen and (max-width:1128px){
+    .first-right-half{width:61%;}
+    .first-left-half{width: 39%;}
+    .first-left-half h1 {font-size: 1.9rem;}
+    .first-section h1+p {margin-left: 3vh;}
+    .first-section p+p {padding-left: 6vh;}
+    .first-section button {margin-left: 11vh;}
+}
+
+@media screen and (max-width:1103px){
+    .first-right-half{width:62%;}
+    .first-left-half{width: 38%;}
+    .first-left-half h1 {font-size: 1.8rem;}
+    .first-section h1+p {margin-left: 2vh;}
+    .first-section p+p {padding-left: 5vh;}
+    .first-section button {margin-left: 10vh;}
+}
+
+@media screen and (max-width:1099px){
+    .first-right-half{width:64%;}
+    .first-left-half{width: 36%;}
+    .first-left-half h1 {font-size: 1.7rem;}
+    .first-section h1+p {
+        margin-left: 2vh;
+        font-size: 3rem;
+    }
+    .first-section p+p {
+        padding-left: 3vh;
+        font-size: 1.5vh;
+    }
+    .first-section button {margin-left: 8vh;}
 }
