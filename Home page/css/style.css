@@ -548,11 +548,16 @@ footer a:hover{
     .first-right-half{width:55%;}
     .first-left-half{width: 45%;}
     .logo span{font-size:1em;}
-    .first-left-half h1 {font-size: 2.5rem;}
+    .first-left-half h1 {font-size: 2.2rem;}
+    .first-section h1+p {margin-left: 10vh;}
+    .first-section p+p{padding-left: 14vh;}
+    .first-section button{margin-left: 18vh;}
+    .second-section{height:50vh;}
 }
 
-@media screen and (max-width:1238px){
-    .first-left-half h1 {font-size: 2.4rem;}
+@media screen and (max-width:1273px){
+    .first-left-half h1 {font-size: 2.1rem;}
+    
 }
 
 @media screen and (max-width:1218px){
